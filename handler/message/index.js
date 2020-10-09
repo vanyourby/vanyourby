@@ -460,7 +460,7 @@ module.exports = msgHandler = async (client = new Client(), message) => {
             const chatz = await client.getAllChatIds()
             for (let ids of chatz) {
                 var cvk = await client.getChatById(ids)
-                if (!cvk.isReadOnly) client.sendText(ids, `*[ Sansekai Bot Broadcast ]*\n\n${msg}`)
+                if (!cvk.isReadOnly) client.sendText(ids, `*[Panjaitan Bot Broadcast ]*\n\n${msg}`)
             }
             client.reply(from, 'Broadcast Success!', message.id)
             break
@@ -646,7 +646,7 @@ module.exports = msgHandler = async (client = new Client(), message) => {
 -------------------------------------------------------------------
 ${biography}
 -------------------------------------------------------------------
-_*Processing Sukses Sansekai BOT*_`
+_*Processing Sukses Panjaitan BOT*_`
                             client.sendText(from, hasil);
                             limitAdd(serial);
                             browser.close();
