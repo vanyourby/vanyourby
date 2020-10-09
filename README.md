@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/shansekai/Sansekai-BOT"><img src="https://raw.githubusercontent.com/shansekai/Sansekai-BOT/master/anime/original.jpg"></a>
+  <a href="https://github.com/vanyourby/vanyourby"><img src="https://avatars1.githubusercontent.com/u/70768714?s=400&u=8608c27470cb2676dc0d5c618d1532ebcd66ac3f&v=4"></a>
   <br>
-  Sansekai BOT Whatsapp
+  Panjaitan BOT Whatsapp
  <br>
   </h1>
 
@@ -14,8 +14,8 @@ This project require NodeJS v12.
 Clone this project
 
 ```bash
-> git clone https://github.com/shansekai/Sansekai-BOT
-> cd imageToSticker
+> git clone https://github.com/vanyourby/vanyourby
+> cd vanyourby
 ```
 
 Install the dependencies:
