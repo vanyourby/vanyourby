@@ -14,17 +14,17 @@ Dengan menggunakan source code / bot ini maka anda setuju dengan Syarat dan Kond
     • pembakaran hutan / penggundulan hutan
     • ujaran kebencian atau diskriminasi berdasarkan usia, jenis kelamin, identitas gender, ras, seksualitas, agama, kebangsaan
 
-Source Code BOT : https://github.com/YogaSakti/imageToSticker
+Source Code BOT : https://github.com/vanyourby/vanyourby
 NodeJS WhatsApp library: https://github.com/open-wa/wa-automate-nodejs
 
-Best regards, Yoga Sakti.`
+Best regards, IDSP.`
 }
 
 exports.textMenu = (pushname) => {
     return `
 Hi kak ${pushname}! 👋️
 jangan lupa follow ig aku ya
-https://www.instagram.com/yusril.id_ dan juga kalau mau support botnya kamu bisa bantu aku dengan cara bedonasi.
+https://www.instagram.com/vanyourby dan juga kalau mau support botnya kamu bisa bantu aku dengan cara bedonasi.
 ketik : *#donasi*
 untuk melihat info donasi.
 
@@ -144,9 +144,7 @@ Menghapus semua chat
 ➥ *#donasi*
 informasi untuk membantu kami membayar server bot agar tetap aktif.
 
-grup wa : https://chat.whatsapp.com/CgAnPQOxapiAX9uYwTo21y
-
-Bot By: *Sansekai Bot*`
+Bot By: *Panjaitan Bot*`
 }
 
 exports.textAdmin = () => {
@@ -187,10 +185,10 @@ exports.textDonasi = () => {
 Hai Kak, Selamat datang di menu donasi
 
 Support Bot Kami Agar Tetap Aktif Dan Tidak Mengalami Error Dengan Berdonasi ke:
-Dana: 081283468899
-OVO: 081283468899
-GOPAY: 081283468899
-PULSA TELKOMSEL: 081283468899
+Dana: 082111237689
+OVO: 085805215947
+GOPAY: 082111237689
+PULSA TELKOMSEL: 082111237689
 
 *Menerima donasi berapapun jumlahnya 🙏 Terima Kasih.*`
 }
