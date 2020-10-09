@@ -25,7 +25,7 @@ module.exports = msgHandler = async (client = new Client(), message) => {
         const groupId = isGroupMsg ? chat.groupMetadata.id : ''
         const groupAdmins = isGroupMsg ? await client.getGroupAdmins(groupId) : ''
         const groupMembers = isGroupMsg ? await client.getGroupMembersId(groupId) : ''
-        const isOwner = sender.id === '6281283468899@c.us'
+        const isOwner = sender.id === '6282111237689@c.us'
         const isGroupAdmins = groupAdmins.includes(sender.id) || false
         const isBotGroupAdmins = groupAdmins.includes(botNumber) || false
 
@@ -158,7 +158,7 @@ module.exports = msgHandler = async (client = new Client(), message) => {
         case 'tiktok':
             if (args.length !== 1) return client.reply(from, 'Maaf, format pesan salah silahkan periksa menu. [Wrong Format]', id)
             if (!isUrl(url) && !url.includes('tiktok.com')) return client.reply(from, 'Maaf, link yang kamu kirim tidak valid. [Invalid Link]', id)
-            await client.reply(from, `_Scraping Metadata..._ \n\nSupport Bot Kami Agar Tetap Aktif Dengan Cara Donasi Ke:\nDana: 081283468899\nOVO: 081283468899\nGOPAY: 081283468899\nPULSA TELKOMSEL: 081283468899\n\n*Menerima donasi berapapun jumlahnya 🙏 Terima Kasih.*`, id)
+            await client.reply(from, `_Scraping Metadata..._ \n\nSupport Bot Kami Agar Tetap Aktif Dengan Cara Donasi Ke:\nDana: 082111237689\nOVO: 085805215947\nGOPAY: 082111237689\nPULSA TELKOMSEL: 082111237689\n\n*Menerima donasi berapapun jumlahnya 🙏 Terima Kasih.*`, id)
             downloader.tiktok(url).then(async (videoMeta) => {
                 const filename = videoMeta.authorMeta.name + '.mp4'
                 const caps = `*Metadata:*\nUsername: ${videoMeta.authorMeta.name} \nMusic: ${videoMeta.musicMeta.musicName} \nView: ${videoMeta.playCount.toLocaleString()} \nLike: ${videoMeta.diggCount.toLocaleString()} \nComment: ${videoMeta.commentCount.toLocaleString()} \nShare: ${videoMeta.shareCount.toLocaleString()} \nCaption: ${videoMeta.text.trim() ? videoMeta.text : '-'}`
@@ -171,7 +171,7 @@ module.exports = msgHandler = async (client = new Client(), message) => {
         case 'instagram':
             if (args.length !== 1) return client.reply(from, 'Maaf, format pesan salah silahkan periksa menu. [Wrong Format]', id)
             if (!isUrl(url) && !url.includes('instagram.com')) return client.reply(from, 'Maaf, link yang kamu kirim tidak valid. [Invalid Link]', id)
-            await client.reply(from, `_Scraping Metadata..._ \n\nSupport Bot Kami Agar Tetap Aktif Dengan Cara Donasi Ke:\nDana: 081283468899\nOVO: 081283468899\nGOPAY: 081283468899\nPULSA TELKOMSEL: 081283468899\n\n*Menerima donasi berapapun jumlahnya 🙏 Terima Kasih.*`, id)
+            await client.reply(from, `_Scraping Metadata..._ \n\nSupport Bot Kami Agar Tetap Aktif Dengan Cara Donasi Ke:\nDana: 082111237689\nOVO: 085805215947\nGOPAY: 082111237689\nPULSA TELKOMSEL: 082111237689\n\n*Menerima donasi berapapun jumlahnya 🙏 Terima Kasih.*`, id)
             downloader.insta(url).then(async (data) => {
                 if (data.type == 'GraphSidecar') {
                     if (data.image.length != 0) {
